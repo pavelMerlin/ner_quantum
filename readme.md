@@ -25,7 +25,7 @@ NER format.
     ```
 
 ## Dataset
-
+The dataset of data is generated using LLMs. A description of landscapes is created with a mention from the list of mountains in the world. The obtained data is written to a txt file. After that the processing of this txt file takes place. The output is a training and test set of words with their corresponding ner-tokens in B-geo (Begin), I-geo (Inside) and O (Outside) format.
 
 ## Usage
 ### Loading the Model
